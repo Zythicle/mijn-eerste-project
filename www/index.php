@@ -18,6 +18,7 @@ include 'header.php';
                 <h2><?php echo htmlspecialchars($item['titel']); ?></h2>
                 <p><?php echo htmlspecialchars($item['omschrijving']); ?></p>
                 <p>Conditie: <?php echo htmlspecialchars($item['conditie']); ?></p>
+                <p>Status: <?php echo htmlspecialchars($item['status']); ?></p>
                 <p>Prijs: €<?php echo number_format($item['prijs'], 2); ?></p>
                 <a href="view_item.php?id=<?php echo $item['item_id']; ?>">Details bekijken</a>
             </div>

@@ -14,6 +14,7 @@ require 'database.php';
                 <li><a href="cart.php">Winkelmand</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="login.php">Inloggen</a></li>
+                <li><a href="signup.php">Registreren</a></li>
             </ul>
         </nav>
     </header>
